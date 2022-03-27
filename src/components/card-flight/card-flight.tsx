@@ -32,7 +32,7 @@ const StyledPlanetName = styled.div`
   margin-bottom: 30px;
 `;
 const StyledBody = styled.div`
-  padding: ${({ isMobile }: { isMobile?: boolean }) => isMobile ? '8px 8px 19px 8px' : '25px 27px 0' };
+  padding: ${({ isMobile }: { isMobile?: boolean }) => isMobile ? '8px 8px 19px 8px' : '25px 24px 37px' };
   flex: 1 1 auto;
 `;
 const StyledButton = styled.button`
